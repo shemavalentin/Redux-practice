@@ -41,8 +41,7 @@ unsubscribe();
 
 // Dispact one more action to see what happens
 */
-store.dispatch({ type: 'todos/todoAdded', payload: 'Try creating a store' });
-console.log('State after dispatch: ', store.getState())
-
+store.dispatch({ type: 'todos/todoAdded', payload: 'Learn about actions' });
+//console.log('State after dispatch: ', store.getState())
 
   
